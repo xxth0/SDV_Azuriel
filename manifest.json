@@ -1,0 +1,12 @@
+{
+  "Name": "[CP]Azuriel",
+  "Author": "xxth0",
+  "Version": "1.0.0",
+  "Description": "",
+  "UniqueID": "xxth0.Azuriel",
+  "UpdateKeys": [""],
+  "MinimumApiVersion": "4.0.0",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

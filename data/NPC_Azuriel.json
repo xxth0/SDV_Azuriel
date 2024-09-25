@@ -1,0 +1,217 @@
+{
+	"Changes": [
+		{
+			"LogName": "Azuriel's basic info",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Azuriel": {
+                    "DisplayName": "{{i18n:NPCName:Azuriel}}",
+					"BirthSeason": "Fall",
+					"Birthday": 9,
+					"HomeRegion": "Other",
+					"Gender": "Male",
+					"Age": "Teen",
+					"Manner": "Polite",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Negative",
+                    "SpawnIfMissing": true,
+                    "IsDarkSkinned": false,
+                    "CanBeRomanced": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "CanSocialize": true,
+                    "CanVisitIslandCondition": true,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "EndSlideShow": "MainGroup",
+                    "SpouseGiftJealousy": true,
+					"SpouseGiftJealousyFriendshipChange": -50,
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+					"KissingSpriteIndex": 28,
+					"KissSpriteFacingRight": true,
+					"SpawnIfMissing": true,
+                    "SpouseRoom": {
+                        "MapAsset": "{{ModId}}_Azuriel_Spouse_Room",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+					 "SpousePatio": {
+                      "MapAsset": "{{ModId}}_Azuriel_Spouse_Area",
+                      "MapSourceRect": {
+                          "X": 0,
+                          "Y": 0,
+                          "Width": 4,
+                          "Height": 4
+                      }
+					},
+					// Spawn Area //
+					"Home": [
+                    {
+                        "Id": "Default",
+                        "Condition": null,
+                        "Location": "{{ModId}}_AzurielGarden",
+                        "Tile": {"X": 0, "Y": 0},
+						"Direction": "up"
+                    },
+                  ]
+                }
+            }
+        },
+		
+			// Gift Tastes //
+        {
+            "LogName": "Azuriel's Gift Tastes (No SVE)",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+				
+				// Loved : Void Essence, Coral, Rainbow Shell, Sea Urchin, Blue Jazz, Aquamarine
+				// Liked : Rain Totem, Gold Bars, All Fishes, All Slime Eggs, Sea Jelly
+				// Neutral: Coffee Bean, All Fruits
+				// Dislike: Spicy Eel, All Eggs, Milk 
+				// Hate: Garlic, Oil of Garlic, Salmonberry, Mayonnaise
+				
+                "Azuriel": "{{i18n:Azuriel.GiftTastes.love.{{Random: {{Range: 1, 5}} }}}}/62 393 394 397 596  769 /{{i18n:Azuriel.GiftTastes.like.{{Random: {{Range: 1, 5}} }}}}/336 413 437 439 680 681 857 -4 SeaJelly /{{i18n:Azuriel.GiftTastes.dislike.{{Random: {{Range: 1, 5}} }}}}/226 346 -5 -6/{{i18n:Azuriel.GiftTastes.hate.{{Random: {{Range: 1, 5}} }}}}/248 296 306 307 308 772 807 /{{i18n:Azuriel.GiftTastes.neutral.{{Random: {{Range: 1, 5}} }}}}/395 -79//"
+            },
+			"When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Spouse Azuriel's Gift Tastes (No SVE)",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Azuriel": "{{i18n:Spouse.Azuriel.GiftTastes.love.{{Random: {{Range: 1, 5}} }}}}/62 393 394 397 596  769/{{i18n:Spouse.Azuriel.GiftTastes.like.{{Random: {{Range: 1, 5}} }}}}/336 413 437 439 680 681 857 -4 SeaJelly/{{i18n:Spouse.Azuriel.GiftTastes.dislike.{{Random: {{Range: 1, 5}} }}}}/248 768 729 649/{{i18n:Spouse.Azuriel.GiftTastes.hate.{{Random: {{Range: 1, 5}} }}}}/226 346 -5 -6/{{i18n:Spouse.Azuriel.GiftTastes.neutral.{{Random: {{Range: 1, 5}} }}}}/395 -79//"
+            },
+			"When": {
+                "Spouse": "Azuriel",
+            }
+        },
+		{
+            "LogName": "Azuriel's Gift Tastes (SVE)",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Azuriel": "{{i18n:Azuriel.GiftTastes.love.{{Random: {{Range: 1, 5}} }}}}/62 393 394 397 596  769 /{{i18n:Azuriel.GiftTastes.like.{{Random: {{Range: 1, 5}} }}}}/336 413 437 439 680 681 857 -4 SeaJelly /{{i18n:Azuriel.GiftTastes.dislike.{{Random: {{Range: 1, 5}} }}}}/226 346 -5 -6/{{i18n:Azuriel.GiftTastes.hate.{{Random: {{Range: 1, 5}} }}}}/248 296 306 307 308 772 807 /{{i18n:Azuriel.GiftTastes.neutral.{{Random: {{Range: 1, 5}} }}}}/395 -79//"
+            },
+			"When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+            "LogName": "Spouse Azuriel's Gift Tastes (SVE)",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Azuriel": "{{i18n:Spouse.Azuriel.GiftTastes.love.{{Random: {{Range: 1, 5}} }}}}/62 393 394 397 596  769/{{i18n:Spouse.Azuriel.GiftTastes.like.{{Random: {{Range: 1, 5}} }}}}/336 413 437 439 680 681 857 -4 SeaJelly/{{i18n:Spouse.Azuriel.GiftTastes.dislike.{{Random: {{Range: 1, 5}} }}}}/248 768 729 649/{{i18n:Spouse.Azuriel.GiftTastes.hate.{{Random: {{Range: 1, 5}} }}}}/226 346 -5 -6/{{i18n:Spouse.Azuriel.GiftTastes.neutral.{{Random: {{Range: 1, 5}} }}}}/395 -79//"
+            },
+            "When": {
+                "Spouse": "Azuriel",
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+			"Log": "Load Overworld Sprites",
+            "Action": "Load",
+            "Target": "Characters/Azuriel",
+            "FromFile": "assets/Sprites/Azuriel/Azuriel.png"
+        },
+        {
+			"Log": "Load Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Azuriel",
+            "FromFile": "assets/Portraits/Azuriel.png"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Azuriel",
+            "FromFile": "data/blank.json"
+        },
+		{
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueAzuriel",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Azuriel",
+            "FromFile": "assets/Schedules/Azuriel/Schedule.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Strings/schedules/Azuriel",
+            "FromFile": "data/blank.json"
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/Dialogue/Azuriel/AzurielDialogue.json, assets/Dialogue/Azuriel/AzurielMarriageDialogue.json"
+        },
+        {
+            "LogName": "ScheduleDialogue",
+            "Action": "Include",
+            "FromFile": "assets/Schedules/Azuriel/ScheduleDialogue.json"
+        },
+		
+		// Babies //
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Baby",
+			"FromFile": "assets/Sprites/Children/Azuriel-baby.png",
+			"When": {
+				"Relationship:Azuriel": "Married"
+				
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Baby_dark",
+			"FromFile": "assets/Sprites/Children/Azuriel-baby_dark.png",
+			"When": {
+				"Relationship:Azuriel": "Married"
+			}
+		},
+		//  Toddlers //
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler",
+			"FromFile": "assets/Sprites/Children/Azuriel-Toddler_boy.png",
+			"When": {
+				"Relationship:Azuriel": "Married"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_dark",
+			"FromFile": "assets/Sprites/Children/Azuriel-Toddler_boy_dark.png",
+			"When": {
+				"Relationship:Azuriel": "Married"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl",
+			"FromFile": "assets/Sprites/Children/Azuriel-Toddler_girl.png",
+			"When": {
+				"Relationship:Azuriel": "Married"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl_dark",
+			"FromFile": "assets/Sprites/Children/Azuriel-Toddler_girl_dark.png",
+			"When": {
+				"Relationship:Azuriel": "Married"
+			}
+		}	
+	]
+	
+}

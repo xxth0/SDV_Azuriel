@@ -1,0 +1,66 @@
+{	
+	// Specific item Gift //
+	
+	// Loved Gift //
+	"Azuriel.Gift.VoidEssence": "Void Essence? I... I shouldn’t, but... thank you.#$b#This speaks to a part of me that I can’t quite explain...",
+	"Azuriel.Gift.Coral": "The colors, the textures… they remind me of the depths of water. I feel at peace just holding them.#$b#T- Thank you, @... F- For thinking of me.",
+	"Azuriel.Gift.RainbowShell": "A shell carrying the whispers of the sea? I sense something special within it.#$b#Perhaps it’ll share its secrets with me one day… A- And when the day comes, I will tell you.",
+	"Azuriel.Gift.SeaUrchin": "It feels so smooth yet prickly. It's as though the creature once living here sought to balance protection and grace in one form.",
+	"Azuriel.Gift.BlueJazz": "Blue Jazz... it’s b- beautiful. The color reminds me of quiet mornings by the water.",
+	"Azuriel.Gift.Aquamarine": "Aquamarine... it feels like I'm holding a piece of the ocean in my hands. T- Thank you.",
+	
+	// Liked Gift //
+	"Azuriel.Gift.RainTotem": "",
+	"Azuriel.Gift.GoldBar": "",
+	"Azuriel.Gift.Fish": "",
+	"Azuriel.Gift.SlimeEgg": "",
+	"Azuriel.Gift.SeaJelly": "",
+	
+	// Neutral Gift //
+	"Azuriel.Gift.Coffee": "",
+	"Azuriel.Gift.Fruit": "",	
+	
+	// Disliked Gift //
+	"Azuriel.Gift.SpicyEel": "",
+	"Azuriel.Gift.Egg": "",
+	"Azuriel.Gift.Milk": "",
+	
+	// Hated Gift //
+	"Azuriel.Gift.Garlic": "",
+	"Azuriel.Gift.OilOfGarlic": "",
+	"Azuriel.Gift.SalmonBerry": "",
+	"Azuriel.Gift.Mayonaise": "",
+	
+	// Default Gift Tastes //
+	
+	"Azuriel.GiftTastes.love.1": "You know me too well! #$b#How can I ever doubt your friendship?",
+	"Azuriel.GiftTastes.love.2": "W- Wow, this is for me?#$b#It's such an incredible gift, @",
+	"Azuriel.GiftTastes.love.3": "Is this really f- for me? You're truly thoughtful. Thanks.",
+	"Azuriel.GiftTastes.love.4": "Y- you remembered what I l- love! Your thoughtfulness shines through. Thank you!",
+	"Azuriel.GiftTastes.love.5": "Ooh, a perfect present from @. This will be cherished, f- forever.",
+	
+	"Azuriel.GiftTastes.like.1": "You remembered... F- friendship means a lot to me. Thank you.",
+	"Azuriel.GiftTastes.like.2": "You took the time t- to learn what I enjoy. Your attention is heartwarming.",
+	"Azuriel.GiftTastes.like.3": "I find solace in these things. Thank you, they bring s- some serenity to my days.",
+	"Azuriel.GiftTastes.like.4": "U- Umm... how did you know I'd like this? T- thank you, i-it brings me joy.",
+	"Azuriel.GiftTastes_like.5": "This is one of my favorite gifts from a friend. T- thank you for brightening my day.",
+	
+	"Azuriel.GiftTastes.neutral.1": "Umm... this is an interesting gift. W- What should I do with it?",
+	"Azuriel.GiftTastes.neutral.2": "I can appreciate the thought, e- even if I don't have much use for it.",
+	"Azuriel.GiftTastes.neutral.3": "Thanks, i- it's... thoughtful of you.",
+	"Azuriel.GiftTastes.neutral.4": "Err... thanks for the gesture. Perhaps I'll find a use for it someday.",
+	"Azuriel.GiftTastes.neutral.5": "A unique choice, indeed. T- thanks, I suppose. A f-friend's effort is always welcome.",
+	
+	"Azuriel.GiftTastes.dislike.1": "I'm not fond of this. C-could we forget about it?",
+	"Azuriel.GiftTastes.dislike.2": "Sorry, i-i-it's not quite something I appreciate.",
+	"Azuriel.GiftTastes.dislike.3": "Oh, t- this isn't r-really my thing.",
+	"Azuriel.GiftTastes.dislike.4": "I must admit, I don't find joy in this. B- but thank you for trying.",
+	"Azuriel.GiftTastes.dislike.5": "Please, no more of this. It's just n-not for me. L- let’s talk about something else.",
+	
+	"Azuriel.GiftTastes.hate.1": "I- I... I don't feel comfortable w- with this kind of thing. S- sorry.",
+	"Azuriel.GiftTastes.hate.2": "N- no thanks. Can we forget this ever happened?",
+	"Azuriel.GiftTastes.hate.3": "I have a hard time understanding why y- you would offer me this. It doesn’t sit well with me.",
+	"Azuriel.GiftTastes.hate.4": "I appreciate you thinking of me, b- but this isn’t my kind of gift.",
+	"Azuriel.GiftTastes.hate.5": "Th- these types of gifts make me uneasy, especially when given repeatedly.",
+	
+}

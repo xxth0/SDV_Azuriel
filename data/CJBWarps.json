@@ -1,0 +1,21 @@
+    {
+        "Changes": [
+			{
+                "Action": "EditData",
+                "Target": "Mods/CJBok.CheatsMenu/Warps",
+                "When": {
+                    "HasMod|contains=xxth0.Azuriel": true
+                },
+                "Entries": {
+                    "{{ModId}}_AzurielGarden": {
+                        "Id": "{{ModId}}_AzurielGarden",
+						"DisplayName": "{{i18n:Location.AzurielGarden}}",
+                        "Location": "{{ModId}}_AzurielGarden",
+                        "Tile": "0, 0", // Map tile not yet decided
+                        "SectionId": "Forest"
+                    }
+				}
+			}
+		]
+		
+	}
